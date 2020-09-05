@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Long+Cang&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+
+.navbar-brand {
+  font-family: "Long Cang", cursive;
+  font-size: 3em;
+}
+.view h1 {
+  font-family: "Play", sans-serif;
+}
+.view h4 {
+  font-family: "Caveat", cursive;
+}
+.view {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.right-viev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-viev ul {
+  position: relative;
+}
+.right-viev ul li {
+  text-align: center;
+  list-style: none;
+}
+.right-viev ul li a {
+  color: #333;
+  text-decoration: none;
+  font-family: "Play", sans-serif;
+  font-size: 2.3em;
+  padding: 5px 20px;
+  display: inline-flex;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.right-viev ul:hover li a {
+  color: #0002;
+}
+.right-viev ul li:hover a {
+  color: #000;
+  background: #fff;
+}
+.right-viev ul li a:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5em;
+  color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  z-index: -1;
+  font-weight: 900;
+  text-transform: capitalize;
+  letter-spacing: 500px;
+  transition: letter-spacing 0.5s, left 0.5s;
+}
+.right-viev ul li a:hover:before {
+  content: attr(data-text);
+  opacity: 1;
+  left: 50%;
+  letter-spacing: 10px;
+  width: 1800px;
+  height: 1800px;
+}
+.right-viev ul li:nth-child(7n + 1) a:before {
+  background-color: #ff8800;
+}
+.right-viev ul li:nth-child(7n + 2) a:before {
+  background-color: #007e33;
+}
+.right-viev ul li:nth-child(7n + 3) a:before {
+  background-color: #0099cc;
+}
+.right-viev ul li:nth-child(7n + 4) a:before {
+  background-color: #ec407a;
+}
+.right-viev ul li:nth-child(7n + 5) a:before {
+  background-color: rgba(76, 175, 80, 0.7);
+}
+.right-viev ul li:nth-child(7n + 6) a:before {
+  background-color: #ffff00;
+}
+.right-viev ul li:nth-child(7n + 7) a:before {
+  background-color: #00e5ff;
+}
+.navbar {
+  background: linear-gradient(
+    40deg,
+    rgba(0, 51, 199, 0.3),
+    rgba(209, 149, 249, 0.3)
+  );
+}
+.navbar:not(.top-nav-collapse) {
+  background: transparent;
+}
+.navbar .navbar-brand img {
+  height: 40px;
+  margin: 10px;
+}
+.hm-gradient {
+  background: linear-gradient(
+    40deg,
+    rgba(0, 51, 199, 0.3),
+    rgba(209, 149, 249, 0.3)
+  );
+}
+.heading {
+  margin: 0 6rem;
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: #5d4267;
+}
+.subheading {
+  margin: 2.5rem 6rem;
+  color: #bcb2c0;
+}
+.btn.btn-margin {
+  margin-left: 6rem;
+  margin-top: 3rem;
+}
+.btn.btn-lily {
+  background: linear-gradient(
+    40deg,
+    rgba(0, 51, 199, 0.7),
+    rgba(209, 149, 249, 0.7)
+  );
+  color: #fff;
+}
+.title {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  color: #5d4267;
+}
+.subtitle {
+  color: #bcb2c0;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 6rem;
+}

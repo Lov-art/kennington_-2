@@ -1,0 +1,25 @@
+@media (max-width: 1440px) {
+  .view h1 {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .view h1 {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .col-md-5 {
+    display: none;
+  }
+  .col-md-7 {
+    max-width: 100% !important;
+  }
+}
